@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
     res.send("<h1>Welcome!</h1>")
     })
 
-function customCallback(req, res, next){
+function customMiddleware(req, res, next){
     console.log(req.body);
     console.log(req.params);
     //CALLS CALLBACK FOR ME
@@ -36,7 +36,8 @@ app.get("/clients/", (req, res) => {
 //      
 //     })
 
-app.get("/clients/:id", (req, res) => {
+//SAME AS ABOVE BUT CALLING CUSTOM MIDDLEWARE FIRST
+app.get("/clients/:id", customMiddleware, (req, res) => {
     // req.query
     // req.params
     res.json(Clients.find((client) => {
