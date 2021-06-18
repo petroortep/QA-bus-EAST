@@ -1,0 +1,25 @@
+{
+  "name": "qabuseast1",
+  "version": "1.0.0",
+  "description": "Rowan University advanced web programming course",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holly-lyson/QA-bus-EAST.git"
+  },
+  "author": "Holly Lyson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holly-lyson/QA-bus-EAST/issues"
+  },
+  "homepage": "https://github.com/holly-lyson/QA-bus-EAST#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
