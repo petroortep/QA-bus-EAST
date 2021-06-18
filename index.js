@@ -14,7 +14,8 @@ app.get("/", (req, res) => {
     })
 
 function customMiddleware(req, res, next){
-    console.log(req.body);
+    console.log(req.query)
+    // console.log(req.body);
     console.log(req.params);
     //CALLS CALLBACK FOR ME
     next();
