@@ -12,7 +12,6 @@ app.get('/api/clients', (req, res) => {
     
     var custs = []
 
-
     // res.json(Clients.find((client) =>{
     //     return client.city === "Seakonk"
     // }))

@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import logo from '../logo.png';
 import './header.css';
+import './menubar';
+import MenuBar from './menubar';
+import './menubar.css';
 
 class Header extends Component {
   render() {
@@ -10,6 +13,7 @@ class Header extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo"/>
           <h1 className='App-title'>Jeremy Roofing Co.</h1>
+          <MenuBar/>
         </header>
         </div>
         </div>
