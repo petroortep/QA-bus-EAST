@@ -1,3 +1,6 @@
+import React, {Component} from 'react';
+import TestIMG1 from "../public/images/test.jpg";
+
 const clients = [
     {
         id: 1,
@@ -5,7 +8,8 @@ const clients = [
         lastName: 'Jiosi',
         address: '1650 Market St.',
         city: 'Philadelphia',
-        state: 'PA'
+        state: 'PA',
+        photoURL: ''
     }, 
     {
         id: 2,
