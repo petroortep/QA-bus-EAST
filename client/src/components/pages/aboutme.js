@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import './customers.css';
+//import './customers.css';
 
 class AboutMe extends Component {
   render() {
     return(
-        <div className="background">
-            <h2>AboutMe</h2>
+        <div className="About">
+            <h2>About Me Page will be HERE! :-)</h2>
         </div>
     );
   }

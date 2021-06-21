@@ -1,3 +1,5 @@
+import React, {Component} from 'react';
+
 export const MenuItems = [
     {
         title: 'Home',
@@ -6,12 +8,27 @@ export const MenuItems = [
     },
     {
         title: 'AboutMe',
-        url: '/aboutme', //link goes here
+        url: '/pages/aboutme', //link goes here
         cName: 'menu-links'
     }, 
     {
         title: 'FAQ',
-        url: 'faq', //link goes here
+        url: '/pages/faq', //link goes here
         cName: 'menu-links'
-    } 
+    },
+    {
+        title: 'Testimonials',
+        url: '/pages/testimonials', //link goes here
+        cName: 'menu-links'
+    },
+    {
+        title: 'Referrals',
+        url: '/pages/referrals', //link goes here
+        cName: 'menu-links'
+    }, 
+    {
+        title: 'Contact Us',
+        url: '/pages/contactus', //link goes here
+        cName: 'menu-links'
+    }  
 ]
