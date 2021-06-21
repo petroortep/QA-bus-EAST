@@ -7,7 +7,7 @@ export const MenuItems = [
         cName: 'menu-links'
     },
     {
-        title: 'AboutMe',
+        title: 'About Me',
         url: '/pages/aboutme', //link goes here
         cName: 'menu-links'
     }, 
